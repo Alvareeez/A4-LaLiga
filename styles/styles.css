@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#header {
+    height: 100vh;
+    background-image: url("../img/f1-redbull.png");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#h1_tittle {
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    padding: 25%;
+}
+
+#main {
+    padding: 0 25%;
+}
