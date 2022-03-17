@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Quicksand:wght@300&display=swap');
 body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
@@ -13,20 +7,85 @@ body {
 
 #header {
     height: 100vh;
-    background-image: url("../img/f1-redbull.png");
+    background-image: url("../img/header_background.jpeg");
     background-size: cover;
     background-position: center;
-    font-family: 'Libre Baskerville', serif;
 }
 
-#h1_tittle {
-    color: whitesmoke;
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1_title {
+    color: white;
     text-align: center;
     margin: 0;
+    padding-left: 25%;
+    padding-right: 25%;
     font-size: 40px;
-    padding: 25%;
 }
 
 #main {
-    padding: 0 25%;
+    padding: 0% 25%;
+}
+
+#main h1 {
+    font-size: 40px;
+}
+
+#main p {
+    font-size: 20px;
+}
+
+iframe {
+    width: 97%;
+    height: 400px;
+}
+
+#h2-spoilers {
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+
+#main img {
+    width: 100%;
+}
+
+#footer {
+    background-color: black;
+    padding: 25%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#footer footer {
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .h1_title {
+        padding: 0% 1%;
+        font-size: 40px;
+    }
+    #main {
+        padding: 0% 1%;
+    }
+    #main h1 {
+        padding: 0% 1%;
+        font-size: 35px;
+    }
+    #main p {
+        padding: 0% 1%;
+        font-size: 15px;
+    }
+    iframe {
+        padding: 0% 1%;
+        height: 200px;
+    }
 }
